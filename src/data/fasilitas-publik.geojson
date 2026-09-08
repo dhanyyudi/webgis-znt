@@ -1,0 +1,2630 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47955874943001,
+          -6.763576955
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "nama": "Kantor Pertanahan ATR/BPN Kab. Cirebon",
+        "kategori": "pemerintahan",
+        "alamat": "Jl. Sunan Drajat No. 11, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "(0231) 321456",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Fasad gedung kantor pelayanan pemerintahan dan pertanahan modern di Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang loket pelayanan terpadu dan konsultasi masyarakat yang tertata rapi."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Kompleks pusat pemerintahan daerah Kabupaten Cirebon dengan arsitektur khas."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47881762446501,
+          -6.762191865
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "nama": "Kantor Bupati Cirebon",
+        "kategori": "pemerintahan",
+        "alamat": "Jl. Sunan Kalijaga No. 7, Kompleks Pemkab, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "(0231) 321197",
+        "jam_operasional": "07:30–16:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Fasad gedung kantor pelayanan pemerintahan dan pertanahan modern di Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang loket pelayanan terpadu dan konsultasi masyarakat yang tertata rapi."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Kompleks pusat pemerintahan daerah Kabupaten Cirebon dengan arsitektur khas."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.48029987439502,
+          -6.7625381375
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "nama": "DPRD Kabupaten Cirebon",
+        "kategori": "pemerintahan",
+        "alamat": "Jl. Sunan Rahmat No. 1, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "(0231) 321301",
+        "jam_operasional": "08:00–16:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Fasad gedung kantor pelayanan pemerintahan dan pertanahan modern di Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang loket pelayanan terpadu dan konsultasi masyarakat yang tertata rapi."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Kompleks pusat pemerintahan daerah Kabupaten Cirebon dengan arsitektur khas."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47733537453502,
+          -6.76288441
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "nama": "Bappelitbangda Kab. Cirebon",
+        "kategori": "pemerintahan",
+        "alamat": "Kompleks Perkantoran Pemkab, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "(0231) 321402",
+        "jam_operasional": "07:30–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Fasad gedung kantor pelayanan pemerintahan dan pertanahan modern di Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang loket pelayanan terpadu dan konsultasi masyarakat yang tertata rapi."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Kompleks pusat pemerintahan daerah Kabupaten Cirebon dengan arsitektur khas."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47918818694751,
+          -6.761845592499999
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "nama": "Masjid Agung Sumber",
+        "kategori": "ibadah",
+        "alamat": "Jl. Sunan Kalijaga Depan Kantor Bupati, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "-",
+        "jam_operasional": "Setiap Waktu Sholat",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_masjid-agung-sumber.jpg",
+            "caption": "Arsitektur masjid megah dengan kubah hijau emas dan pelataran marmer indah."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan pusat kegiatan keagamaan dan sosial kemasyarakatan."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Integrasi tata ruang sarana ibadah dengan kawasan perumahan sekitar."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47733537453502,
+          -6.76565459
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "nama": "Pasar Sumber Tradisional",
+        "kategori": "ekonomi",
+        "alamat": "Jl. R.A. Kartini No. 5, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "-",
+        "jam_operasional": "04:00–17:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47696481205251,
+          -6.763576955
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "nama": "Bank BJB Cabang Sumber",
+        "kategori": "keuangan",
+        "alamat": "Jl. R. Dewi Sartika No. 22, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "(0231) 321555",
+        "jam_operasional": "08:00–15:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Kantor layanan perbankan dan transaksi keuangan terpadu."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang pelayanan teller dan customer service perbankan profesional."
+          },
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Lokasi strategis di koridor niaga perbankan dan permodalan UMKM."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47881762446501,
+          -6.764962045
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "nama": "Bank BRI KC Sumber",
+        "kategori": "keuangan",
+        "alamat": "Jl. Sunan Drajat No. 8, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "(0231) 321666",
+        "jam_operasional": "08:00–15:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Kantor layanan perbankan dan transaksi keuangan terpadu."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang pelayanan teller dan customer service perbankan profesional."
+          },
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Lokasi strategis di koridor niaga perbankan dan permodalan UMKM."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47992931191251,
+          -6.7646157725
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "nama": "Puskesmas DTP Sumber",
+        "kategori": "kesehatan",
+        "alamat": "Jl. Sultan Agung No. 15, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "(0231) 321045",
+        "jam_operasional": "24 Jam",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_fasilitas-kesehatan-sumber.png",
+            "caption": "Fasilitas pusat kesehatan masyarakat (Puskesmas) dan klinik kesehatan wilayah."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang pelayanan rawat jalan dan konsultasi kesehatan masyarakat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Akses koridor jalan menuju fasilitas kesehatan rujukan daerah."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.48067043687752,
+          -6.7632306825
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "nama": "SMAN 1 Sumber",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Sunan Malik Ibrahim No. 4, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "(0231) 321184",
+        "jam_operasional": "07:00–15:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47941052443701,
+          -6.763923227499999
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "nama": "Kantor Kelurahan Sumber",
+        "kategori": "desa",
+        "alamat": "Jl. Pangeran Kejaksan No. 3, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "(0231) 321701",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.48029987439502,
+          -6.762191865
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "nama": "Taman Olahraga Ranggajati",
+        "kategori": "pemerintahan",
+        "alamat": "Jl. Sunan Malik Ibrahim, Sumber",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sumber",
+        "telepon": "-",
+        "jam_operasional": "06:00–21:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Fasad gedung kantor pelayanan pemerintahan dan pertanahan modern di Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang loket pelayanan terpadu dan konsultasi masyarakat yang tertata rapi."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Kompleks pusat pemerintahan daerah Kabupaten Cirebon dengan arsitektur khas."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47285826999999,
+          -6.7607048149999995
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "nama": "Dinas Pekerjaan Umum & Tata Ruang (PUTR)",
+        "kategori": "pemerintahan",
+        "alamat": "Jl. R. Dewi Sartika No. 1, Tukmudal",
+        "kecamatan": "Sumber",
+        "kelurahan": "Tukmudal",
+        "telepon": "(0231) 321155",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Fasad gedung kantor pelayanan pemerintahan dan pertanahan modern di Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang loket pelayanan terpadu dan konsultasi masyarakat yang tertata rapi."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Kompleks pusat pemerintahan daerah Kabupaten Cirebon dengan arsitektur khas."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.472154385,
+          -6.76140513
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "nama": "SMPN 1 Sumber",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Raden Dewi Sartika No. 12, Tukmudal",
+        "kecamatan": "Sumber",
+        "kelurahan": "Tukmudal",
+        "telepon": "(0231) 321345",
+        "jam_operasional": "07:00–14:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47004273,
+          -6.759304185
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "nama": "Kantor Kelurahan Tukmudal",
+        "kategori": "desa",
+        "alamat": "Jl. Ki Bagus Rangin No. 14, Tukmudal",
+        "kecamatan": "Sumber",
+        "kelurahan": "Tukmudal",
+        "telepon": "(0231) 321703",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.48292100453511,
+          -6.7726564504299605
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "nama": "RSUD Sumber Kab. Cirebon",
+        "kategori": "kesehatan",
+        "alamat": "Jl. Pangeran Kejaksan No. 5, Babakan",
+        "kecamatan": "Sumber",
+        "kelurahan": "Babakan",
+        "telepon": "(0231) 321288",
+        "jam_operasional": "24 Jam (IGD)",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_fasilitas-kesehatan-sumber.png",
+            "caption": "Fasilitas pusat kesehatan masyarakat (Puskesmas) dan klinik kesehatan wilayah."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang pelayanan rawat jalan dan konsultasi kesehatan masyarakat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Akses koridor jalan menuju fasilitas kesehatan rujukan daerah."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.48347550957011,
+          -6.774828550569948
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "nama": "Kantor Kelurahan Babakan",
+        "kategori": "desa",
+        "alamat": "Jl. Fatahillah No. 45, Babakan",
+        "kecamatan": "Sumber",
+        "kelurahan": "Babakan",
+        "telepon": "(0231) 321702",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.49533631500006,
+          -6.74869658
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "nama": "Kantor Kelurahan Gegunung",
+        "kategori": "desa",
+        "alamat": "Jl. Gegunung Indah No. 5, Gegunung",
+        "kecamatan": "Sumber",
+        "kelurahan": "Gegunung",
+        "telepon": "(0231) 321704",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.48882335265004,
+          -6.7511472999999995
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "nama": "Kantor Kelurahan Perbutulan",
+        "kategori": "desa",
+        "alamat": "Jl. Pangeran Antasari No. 18, Perbutulan",
+        "kecamatan": "Sumber",
+        "kelurahan": "Perbutulan",
+        "telepon": "(0231) 321705",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.51226542,
+          -6.743895345464964
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "nama": "Kantor Desa Cempaka",
+        "kategori": "desa",
+        "alamat": "Jl. Pangeran Cakrabuana No. 25, Cempaka",
+        "kecamatan": "Talun",
+        "kelurahan": "Cempaka",
+        "telepon": "(0231) 880123",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.51122858,
+          -6.746691810569956
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "nama": "Masjid Jamie Nurul Huda Cempaka",
+        "kategori": "ibadah",
+        "alamat": "Jl. Raya Talun KM 3, Cempaka",
+        "kecamatan": "Talun",
+        "kelurahan": "Cempaka",
+        "telepon": "-",
+        "jam_operasional": "Setiap Waktu Sholat",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_masjid-agung-sumber.jpg",
+            "caption": "Arsitektur masjid megah dengan kubah hijau emas dan pelataran marmer indah."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan pusat kegiatan keagamaan dan sosial kemasyarakatan."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Integrasi tata ruang sarana ibadah dengan kawasan perumahan sekitar."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.51278384,
+          -6.745759655534959
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "nama": "SDN 1 Cempaka",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Ki Gede Cempaka No. 8, Cempaka",
+        "kecamatan": "Talun",
+        "kelurahan": "Cempaka",
+        "telepon": "(0231) 880456",
+        "jam_operasional": "07:00–13:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.51071016,
+          -6.742963190429967
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "nama": "Sentra Niaga & Kuliner Cakrabuana",
+        "kategori": "ekonomi",
+        "alamat": "Jl. Pangeran Cakrabuana Kav. 12, Cempaka",
+        "kecamatan": "Talun",
+        "kelurahan": "Cempaka",
+        "telepon": "-",
+        "jam_operasional": "09:00–22:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.48056671,
+          -6.747768745
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "nama": "Kantor Kelurahan Kaliwadas",
+        "kategori": "desa",
+        "alamat": "Jl. Kaliwadas Raya No. 9, Kaliwadas",
+        "kecamatan": "Sumber",
+        "kelurahan": "Kaliwadas",
+        "telepon": "(0231) 321706",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47864458,
+          -6.749000255
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "nama": "SDN 1 Kaliwadas",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Blok Pesantren No. 3, Kaliwadas",
+        "kecamatan": "Sumber",
+        "kelurahan": "Kaliwadas",
+        "telepon": "(0231) 321780",
+        "jam_operasional": "07:00–13:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.48120742,
+          -6.74961601
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "nama": "Masjid Jamie Baiturrahman Kaliwadas",
+        "kategori": "ibadah",
+        "alamat": "Jl. Kaliwadas Timur No. 14, Kaliwadas",
+        "kecamatan": "Sumber",
+        "kelurahan": "Kaliwadas",
+        "telepon": "-",
+        "jam_operasional": "Setiap Waktu Sholat",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_masjid-agung-sumber.jpg",
+            "caption": "Arsitektur masjid megah dengan kubah hijau emas dan pelataran marmer indah."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan pusat kegiatan keagamaan dan sosial kemasyarakatan."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Integrasi tata ruang sarana ibadah dengan kawasan perumahan sekitar."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.46141817000006,
+          -6.75221405
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "nama": "Kantor Kelurahan Kenanga",
+        "kategori": "desa",
+        "alamat": "Jl. Kenanga Raya No. 1, Kenanga",
+        "kecamatan": "Sumber",
+        "kelurahan": "Kenanga",
+        "telepon": "(0231) 321707",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45956366000006,
+          -6.7515921
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "nama": "Sentra Industri Pangan Kerupuk Kenanga",
+        "kategori": "ekonomi",
+        "alamat": "Kawasan Sentra UMKM Kenanga, Kenanga",
+        "kecamatan": "Sumber",
+        "kelurahan": "Kenanga",
+        "telepon": "(0231) 321900",
+        "jam_operasional": "08:00–17:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.46203634000005,
+          -6.7540799
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "nama": "Puskesmas Pembantu Kenanga",
+        "kategori": "kesehatan",
+        "alamat": "Jl. Siliwangi Barat No. 7, Kenanga",
+        "kecamatan": "Sumber",
+        "kelurahan": "Kenanga",
+        "telepon": "(0231) 321098",
+        "jam_operasional": "08:00–14:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_fasilitas-kesehatan-sumber.png",
+            "caption": "Fasilitas pusat kesehatan masyarakat (Puskesmas) dan klinik kesehatan wilayah."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang pelayanan rawat jalan dan konsultasi kesehatan masyarakat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Akses koridor jalan menuju fasilitas kesehatan rujukan daerah."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45162065500007,
+          -6.74923011
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "nama": "Kantor Desa Karangwangi",
+        "kategori": "desa",
+        "alamat": "Jl. Karangwangi Blok Masjid, Karangwangi",
+        "kecamatan": "Depok",
+        "kelurahan": "Karangwangi",
+        "telepon": "(0231) 881234",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45065234500007,
+          -6.75047989
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "nama": "SDN 1 Karangwangi",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Karangwangi Utama No. 16, Karangwangi",
+        "kecamatan": "Depok",
+        "kelurahan": "Karangwangi",
+        "telepon": "-",
+        "jam_operasional": "07:00–13:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45210481000007,
+          -6.75110478
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "nama": "Masjid Jami Al-Barokah Karangwangi",
+        "kategori": "ibadah",
+        "alamat": "Jl. Pesantren No. 4, Karangwangi",
+        "kecamatan": "Depok",
+        "kelurahan": "Karangwangi",
+        "telepon": "-",
+        "jam_operasional": "Setiap Waktu Sholat",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_masjid-agung-sumber.jpg",
+            "caption": "Arsitektur masjid megah dengan kubah hijau emas dan pelataran marmer indah."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan pusat kegiatan keagamaan dan sosial kemasyarakatan."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Integrasi tata ruang sarana ibadah dengan kawasan perumahan sekitar."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47326104993004,
+          -6.74191791
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "nama": "Puskesmas Plumbon Pembantu",
+        "kategori": "kesehatan",
+        "alamat": "Jl. Pangeran Antasari Plumbon, Cempaka",
+        "kecamatan": "Plumbon",
+        "kelurahan": "Cempaka",
+        "telepon": "(0231) 321950",
+        "jam_operasional": "08:00–15:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_fasilitas-kesehatan-sumber.png",
+            "caption": "Fasilitas pusat kesehatan masyarakat (Puskesmas) dan klinik kesehatan wilayah."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang pelayanan rawat jalan dan konsultasi kesehatan masyarakat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Akses koridor jalan menuju fasilitas kesehatan rujukan daerah."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47234895007003,
+          -6.74337209
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "nama": "Klinik Pratama Rawat Inap Sehat",
+        "kategori": "kesehatan",
+        "alamat": "Jl. Raya Plumbon No. 40, Cempaka",
+        "kecamatan": "Plumbon",
+        "kelurahan": "Cempaka",
+        "telepon": "(0231) 321977",
+        "jam_operasional": "24 Jam",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_fasilitas-kesehatan-sumber.png",
+            "caption": "Fasilitas pusat kesehatan masyarakat (Puskesmas) dan klinik kesehatan wilayah."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang pelayanan rawat jalan dan konsultasi kesehatan masyarakat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Akses koridor jalan menuju fasilitas kesehatan rujukan daerah."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45271015953502,
+          -6.764018305464977
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "nama": "Kantor Kuwu Desa Sindangjawa",
+        "kategori": "desa",
+        "alamat": "Jl. Nyi Ageng Serang No. 1, Sindangjawa",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Sindangjawa",
+        "telepon": "(0231) 882101",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.44998267943002,
+          -6.764912695534973
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "nama": "Masjid Jamie Al-Ikhlas Sindangjawa",
+        "kategori": "ibadah",
+        "alamat": "Jl. Nyi Ageng Serang No. 15, Sindangjawa",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Sindangjawa",
+        "telepon": "-",
+        "jam_operasional": "Setiap Waktu Sholat",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_masjid-agung-sumber.jpg",
+            "caption": "Arsitektur masjid megah dengan kubah hijau emas dan pelataran marmer indah."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan pusat kegiatan keagamaan dan sosial kemasyarakatan."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Integrasi tata ruang sarana ibadah dengan kawasan perumahan sekitar."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45361931957001,
+          -6.765359890569972
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "nama": "SDN 1 Sindangjawa",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Sindangjawa Tengah No. 20, Sindangjawa",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Sindangjawa",
+        "telepon": "-",
+        "jam_operasional": "07:00–13:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45089183946502,
+          -6.763571110429979
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "nama": "Sentra Agrowisata Buah Sindangjawa",
+        "kategori": "ekonomi",
+        "alamat": "Kawasan Perkebunan Rakyat Sindangjawa",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Sindangjawa",
+        "telepon": "-",
+        "jam_operasional": "08:00–17:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.44144068000007,
+          -6.758181175
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "nama": "Kantor Kuwu Desa Sindangmekar",
+        "kategori": "desa",
+        "alamat": "Jl. Ki Gede Mayung No. 2, Sindangmekar",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Sindangmekar",
+        "telepon": "(0231) 882102",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.44077400000006,
+          -6.7589055
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "nama": "SDN 1 Sindangmekar",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Raya Dukupuntang No. 44, Sindangmekar",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Sindangmekar",
+        "telepon": "-",
+        "jam_operasional": "07:00–13:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.43159800000001,
+          -6.7626255004999685
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "nama": "Balai Kuwu Desa Cangkoak",
+        "kategori": "desa",
+        "alamat": "Jl. Cangkoak Raya No. 10, Cangkoak",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Cangkoak",
+        "telepon": "(0231) 882103",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.43103121007,
+          -6.761052530569964
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "nama": "Sentra Kerajinan Batu Alam Cangkoak",
+        "kategori": "ekonomi",
+        "alamat": "Jl. Sentra Industri Batu Alam, Cangkoak",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Cangkoak",
+        "telepon": "-",
+        "jam_operasional": "08:00–17:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.43273157986,
+          -6.763411985464971
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "nama": "SMPN 2 Dukupuntang",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Cangkoak Dukupuntang No. 8, Cangkoak",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Cangkoak",
+        "telepon": "(0231) 882345",
+        "jam_operasional": "07:00–14:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.441662415,
+          -6.777189885
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "nama": "Kantor Kuwu Desa Cisaat",
+        "kategori": "desa",
+        "alamat": "Jl. Cisaat Utama No. 5, Cisaat",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Cisaat",
+        "telepon": "(0231) 882104",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.44043258500001,
+          -6.778323115
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "nama": "Puskesmas Dukupuntang Rawat Inap",
+        "kategori": "kesehatan",
+        "alamat": "Jl. Raya Cisaat KM 2, Cisaat",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Cisaat",
+        "telepon": "(0231) 882990",
+        "jam_operasional": "24 Jam",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_fasilitas-kesehatan-sumber.png",
+            "caption": "Fasilitas pusat kesehatan masyarakat (Puskesmas) dan klinik kesehatan wilayah."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang pelayanan rawat jalan dan konsultasi kesehatan masyarakat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Akses koridor jalan menuju fasilitas kesehatan rujukan daerah."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.44227733,
+          -6.77888973
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "nama": "Pasar Tradisional Cisaat",
+        "kategori": "ekonomi",
+        "alamat": "Jl. Pasar Cisaat No. 1, Cisaat",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Cisaat",
+        "telepon": "-",
+        "jam_operasional": "05:00–15:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.43981767000001,
+          -6.77662327
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "nama": "Pesantren Terpadu Bina Insan Mulia",
+        "kategori": "pendidikan",
+        "alamat": "Jl. KH. Lukman Hakim, Cisaat",
+        "kecamatan": "Dukupuntang",
+        "kelurahan": "Cisaat",
+        "telepon": "(0231) 882777",
+        "jam_operasional": "08:00–17:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.51815491946505,
+          -6.755158245
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "nama": "Kantor Desa Kecomberan",
+        "kategori": "desa",
+        "alamat": "Jl. Pangeran Cakrabuana No. 88, Kecomberan",
+        "kecamatan": "Talun",
+        "kelurahan": "Kecomberan",
+        "telepon": "(0231) 883101",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.51692907953505,
+          -6.755934755
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "nama": "SMPN 1 Talun",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Kecomberan No. 14, Kecomberan",
+        "kecamatan": "Talun",
+        "kelurahan": "Kecomberan",
+        "telepon": "(0231) 883234",
+        "jam_operasional": "07:00–14:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.51876783943005,
+          -6.75632301
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "nama": "Puskesmas Talun",
+        "kategori": "kesehatan",
+        "alamat": "Jl. Raya Kecomberan Talun No. 2, Kecomberan",
+        "kecamatan": "Talun",
+        "kelurahan": "Kecomberan",
+        "telepon": "(0231) 883045",
+        "jam_operasional": "24 Jam",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_fasilitas-kesehatan-sumber.png",
+            "caption": "Fasilitas pusat kesehatan masyarakat (Puskesmas) dan klinik kesehatan wilayah."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang pelayanan rawat jalan dan konsultasi kesehatan masyarakat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Akses koridor jalan menuju fasilitas kesehatan rujukan daerah."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.50217471,
+          -6.755219835
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "nama": "Kantor Kelurahan Sendang",
+        "kategori": "desa",
+        "alamat": "Jl. Ki Gede Sendang No. 7, Sendang",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sendang",
+        "telepon": "(0231) 321708",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.50143929,
+          -6.755963165
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "nama": "Sentra Kerajinan Batik Sendang",
+        "kategori": "ekonomi",
+        "alamat": "Jl. Pesantren Sendang No. 12, Sendang",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sendang",
+        "telepon": "(0231) 321955",
+        "jam_operasional": "08:30–20:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.49342294946507,
+          -6.75657344046497
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "nama": "Kantor Kelurahan Kemantren",
+        "kategori": "desa",
+        "alamat": "Jl. Pangeran Kejaksan No. 50, Kemantren",
+        "kecamatan": "Sumber",
+        "kelurahan": "Kemantren",
+        "telepon": "(0231) 321709",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.49272504953505,
+          -6.757260560534965
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "nama": "Pos Damkar Sektor Sumber",
+        "kategori": "pemerintahan",
+        "alamat": "Jl. Kemantren Raya No. 3, Kemantren",
+        "kecamatan": "Sumber",
+        "kelurahan": "Kemantren",
+        "telepon": "(0231) 321113",
+        "jam_operasional": "24 Jam",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Fasad gedung kantor pelayanan pemerintahan dan pertanahan modern di Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang loket pelayanan terpadu dan konsultasi masyarakat yang tertata rapi."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Kompleks pusat pemerintahan daerah Kabupaten Cirebon dengan arsitektur khas."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.49819853,
+          -6.76164767
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "nama": "Kantor Desa Wanasaba Lor",
+        "kategori": "desa",
+        "alamat": "Jl. Wanasaba Lor No. 16, Wanasaba Lor",
+        "kecamatan": "Talun",
+        "kelurahan": "Wanasaba Lor",
+        "telepon": "(0231) 883102",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.49682947000001,
+          -6.76225233
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "nama": "Pasar Tradisional Wanasaba",
+        "kategori": "ekonomi",
+        "alamat": "Jl. Raya Wanasaba, Wanasaba Lor",
+        "kecamatan": "Talun",
+        "kelurahan": "Wanasaba Lor",
+        "telepon": "-",
+        "jam_operasional": "05:00–14:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.49996500100009,
+          -6.764238
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "nama": "Kantor Desa Wanasaba Kidul",
+        "kategori": "desa",
+        "alamat": "Jl. Balai Desa Wanasaba Kidul No. 1, Wanasaba Kidul",
+        "kecamatan": "Talun",
+        "kelurahan": "Wanasaba Kidul",
+        "telepon": "(0231) 883103",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.511499,
+          -6.767588999999898
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "nama": "Kantor Desa Cirebongirang",
+        "kategori": "desa",
+        "alamat": "Jl. Sunan Gunung Jati No. 3, Cirebongirang",
+        "kecamatan": "Talun",
+        "kelurahan": "Cirebongirang",
+        "telepon": "(0231) 883104",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.51096330499999,
+          -6.768261830464898
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "nama": "Masjid Bersejarah Cirebongirang",
+        "kategori": "ibadah",
+        "alamat": "Kompleks Keramat Cirebongirang",
+        "kecamatan": "Talun",
+        "kelurahan": "Cirebongirang",
+        "telepon": "-",
+        "jam_operasional": "Buka 24 Jam",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_masjid-agung-sumber.jpg",
+            "caption": "Arsitektur masjid megah dengan kubah hijau emas dan pelataran marmer indah."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan pusat kegiatan keagamaan dan sosial kemasyarakatan."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Integrasi tata ruang sarana ibadah dengan kawasan perumahan sekitar."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.517355,
+          -6.772726
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "nama": "Balai Kuwu Desa Sampiran",
+        "kategori": "desa",
+        "alamat": "Jl. Raya Gronggong KM 5, Sampiran",
+        "kecamatan": "Talun",
+        "kelurahan": "Sampiran",
+        "telepon": "(0231) 883105",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.51746173222507,
+          -6.770143291434737
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "nama": "Kawasan Wisata Bukit Gronggong",
+        "kategori": "ekonomi",
+        "alamat": "Jl. Raya Cirebon-Kuningan Bukit Gronggong, Sampiran",
+        "kecamatan": "Talun",
+        "kelurahan": "Sampiran",
+        "telepon": "-",
+        "jam_operasional": "10:00–23:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.50005649500005,
+          -6.772321495534993
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "nama": "Kantor Desa Krandon",
+        "kategori": "desa",
+        "alamat": "Jl. Krandon Tengah No. 4, Krandon",
+        "kecamatan": "Talun",
+        "kelurahan": "Krandon",
+        "telepon": "(0231) 883106",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4894615,
+          -6.7846545004999665
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "nama": "Balai Kuwu Desa Kubang",
+        "kategori": "desa",
+        "alamat": "Jl. Desa Kubang No. 12, Kubang",
+        "kecamatan": "Talun",
+        "kelurahan": "Kubang",
+        "telepon": "(0231) 883107",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.50260615453503,
+          -6.785818971500842
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "nama": "Kantor Desa Sarwadadi",
+        "kategori": "desa",
+        "alamat": "Jl. Sarwadadi Utama No. 8, Sarwadadi",
+        "kecamatan": "Talun",
+        "kelurahan": "Sarwadadi",
+        "telepon": "(0231) 883108",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.50151884446504,
+          -6.7869370102214
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "nama": "Embung Pertanian Sarwadadi",
+        "kategori": "pemerintahan",
+        "alamat": "Kawasan Embung Irigasi Sarwadadi, Sarwadadi",
+        "kecamatan": "Talun",
+        "kelurahan": "Sarwadadi",
+        "telepon": "-",
+        "jam_operasional": "06:00–18:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Fasad gedung kantor pelayanan pemerintahan dan pertanahan modern di Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang loket pelayanan terpadu dan konsultasi masyarakat yang tertata rapi."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Kompleks pusat pemerintahan daerah Kabupaten Cirebon dengan arsitektur khas."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.50322349950002,
+          -6.7427015
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "nama": "Kantor Kelurahan Pejambon",
+        "kategori": "desa",
+        "alamat": "Jl. Pejambon Raya No. 11, Pejambon",
+        "kecamatan": "Sumber",
+        "kelurahan": "Pejambon",
+        "telepon": "(0231) 321710",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45722950050006,
+          -6.790343390163063
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "nama": "Kantor Kuwu Desa Matangaji",
+        "kategori": "desa",
+        "alamat": "Jl. Panembahan Matangaji No. 1, Matangaji",
+        "kecamatan": "Sumber",
+        "kelurahan": "Matangaji",
+        "telepon": "(0231) 321711",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45592015043007,
+          -6.790958017474477
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "nama": "Wisata Alam Batu Lawang",
+        "kategori": "ekonomi",
+        "alamat": "Perbukitan Matangaji, Matangaji",
+        "kecamatan": "Sumber",
+        "kelurahan": "Matangaji",
+        "telepon": "-",
+        "jam_operasional": "07:30–17:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45853885057005,
+          -6.789728762851648
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "nama": "SDN 1 Matangaji",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Panembahan No. 18, Matangaji",
+        "kecamatan": "Sumber",
+        "kelurahan": "Matangaji",
+        "telepon": "-",
+        "jam_operasional": "07:00–13:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45657482546507,
+          -6.789421449195941
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "nama": "Puskesmas Pembantu Matangaji",
+        "kategori": "kesehatan",
+        "alamat": "Jl. Raya Desa Matangaji, Matangaji",
+        "kecamatan": "Sumber",
+        "kelurahan": "Matangaji",
+        "telepon": "(0231) 321980",
+        "jam_operasional": "08:00–14:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_fasilitas-kesehatan-sumber.png",
+            "caption": "Fasilitas pusat kesehatan masyarakat (Puskesmas) dan klinik kesehatan wilayah."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang pelayanan rawat jalan dan konsultasi kesehatan masyarakat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Akses koridor jalan menuju fasilitas kesehatan rujukan daerah."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.46858800000001,
+          -6.782329994947702
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "nama": "Balai Kuwu Desa Sindangwangi",
+        "kategori": "desa",
+        "alamat": "Jl. Sindangwangi Asri No. 5, Sindangwangi",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sindangwangi",
+        "telepon": "(0231) 321712",
+        "jam_operasional": "08:00–15:30 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Balai pelayanan masyarakat dan kantor pemerintah desa setempat."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lanskap tata guna lahan dan permukiman di sekitar balai desa."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang layanan administrasi kependudukan dan surat tanah desa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.46552214,
+          -6.784095674417221
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "nama": "Kawasan Perkebunan Rakyat Sindangwangi",
+        "kategori": "ekonomi",
+        "alamat": "Blok Perkebunan Sindangwangi, Sindangwangi",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sindangwangi",
+        "telepon": "-",
+        "jam_operasional": "07:00–16:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_pasar-sumber-cirebon.jpg",
+            "caption": "Aktivitas perdagangan dan transaksi di pasar tradisional Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan niaga komersial dan koridor pertokoan ekonomi warga."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Pusat perputaran ekonomi lokal masyarakat Cirebon."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.47165386,
+          -6.784684234240395
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "nama": "Pos Pantau Kehutanan & Konservasi",
+        "kategori": "pemerintahan",
+        "alamat": "Batas Kawasan Hutan Lindung, Sindangwangi",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sindangwangi",
+        "telepon": "(0231) 321115",
+        "jam_operasional": "24 Jam",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_kantor-bpn-cirebon.jpg",
+            "caption": "Fasad gedung kantor pelayanan pemerintahan dan pertanahan modern di Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_pelayanan-bpn-cirebon.jpg",
+            "caption": "Ruang loket pelayanan terpadu dan konsultasi masyarakat yang tertata rapi."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Kompleks pusat pemerintahan daerah Kabupaten Cirebon dengan arsitektur khas."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.470887395,
+          -6.780564315478183
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "nama": "SDN 1 Sindangwangi",
+        "kategori": "pendidikan",
+        "alamat": "Jl. Sindangwangi No. 12, Sindangwangi",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sindangwangi",
+        "telepon": "-",
+        "jam_operasional": "07:00–13:00 WIB",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_sekolah-kawasan-tukmudal.png",
+            "caption": "Gedung fasilitas pendidikan sekolah negeri di kawasan Kabupaten Cirebon."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Lingkungan sarana pendidikan terpadu dan zona nilai tanah sekitarnya."
+          },
+          {
+            "url": "/images/foto_kantor-desa-sindangjawa.png",
+            "caption": "Akses jalan lingkungan dan penunjang aktivitas sekolah siswa."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.466288605,
+          -6.77997575565501
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "nama": "Masjid Jami Al-Muhajirin Sindangwangi",
+        "kategori": "ibadah",
+        "alamat": "Jl. Sindangwangi Timur, Sindangwangi",
+        "kecamatan": "Sumber",
+        "kelurahan": "Sindangwangi",
+        "telepon": "-",
+        "jam_operasional": "Setiap Waktu Sholat",
+        "status": "Aktif Beroperasi",
+        "foto_gallery": [
+          {
+            "url": "/images/foto_masjid-agung-sumber.jpg",
+            "caption": "Arsitektur masjid megah dengan kubah hijau emas dan pelataran marmer indah."
+          },
+          {
+            "url": "/images/foto_kawasan-znt-sumber.jpg",
+            "caption": "Kawasan pusat kegiatan keagamaan dan sosial kemasyarakatan."
+          },
+          {
+            "url": "/images/foto_kantor-bupati-cirebon.jpg",
+            "caption": "Integrasi tata ruang sarana ibadah dengan kawasan perumahan sekitar."
+          }
+        ]
+      }
+    }
+  ]
+}
