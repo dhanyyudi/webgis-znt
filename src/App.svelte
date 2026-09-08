@@ -28,12 +28,19 @@
   let layersCollapsed = $state(initialMobile);
   let legendCollapsed = $state(initialMobile);
   let basemapOpen = $state(false);
+  let measurePanelOpen = $state(false);
+  let statsOpen = $state(false);
 
   function openMobilePanel(panel: 'layers' | 'legend' | 'basemap' | 'tools') {
     if (!isMobile) return;
     if (panel !== 'layers') layersCollapsed = true;
     if (panel !== 'legend') legendCollapsed = true;
     if (panel !== 'basemap') basemapOpen = false;
+    if (panel !== 'tools') {
+      measurePanelOpen = false;
+      statsOpen = false;
+      handleSetMeasureMode('none');
+    }
   }
 
   onMount(() => {
@@ -166,6 +173,8 @@
     <SearchControl onSelectResult={handleSelectSearchResult} onActivate={() => openMobilePanel('tools')} />
 
     <MeasureControl
+      bind:isPanelOpen={measurePanelOpen}
+      bind:isStatsOpen={statsOpen}
       onActivate={() => openMobilePanel('tools')}
       activeMode={measureMode}
       resultText={measureResultText}
