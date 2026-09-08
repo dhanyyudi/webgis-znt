@@ -7,17 +7,19 @@
     resultText = '',
     onSetMode,
     onClear,
-    onActivate
+    onActivate,
+    isPanelOpen = $bindable(false),
+    isStatsOpen = $bindable(false)
   }: {
     activeMode: MeasureMode;
     resultText: string;
     onSetMode: (mode: MeasureMode) => void;
     onClear: () => void;
     onActivate?: () => void;
+    isPanelOpen?: boolean;
+    isStatsOpen?: boolean;
   } = $props();
 
-  let isPanelOpen = $state(false);
-  let isStatsOpen = $state(false);
 
   onMount(() => {
     if (typeof window !== 'undefined') {
@@ -417,7 +419,7 @@
     .sp-measure-btn { width: 40px; height: 40px; justify-content: center; padding: 0; }
     .sp-measure-btn svg { width: 18px; height: 18px; }
     .btn-text { display: none; }
-    .sp-stats-card, .sp-measure-status-card { position: fixed; top: calc(var(--sp-mobile-top) + 102px); left: var(--sp-mobile-left); right: var(--sp-mobile-right); width: auto; max-width: none; max-height: calc(100dvh - 230px); overflow-y: auto; overscroll-behavior: contain; }
+    .sp-stats-card, .sp-measure-status-card { position: fixed; top: calc(var(--sp-mobile-top) + 154px); left: var(--sp-mobile-left); right: var(--sp-mobile-right); width: auto; max-width: none; max-height: calc(100dvh - var(--sp-mobile-top) - var(--sp-footer-h) - 218px); overflow-y: auto; overscroll-behavior: contain; }
     .sp-close-small { min-width: 36px; min-height: 36px; }
   }
 </style>
