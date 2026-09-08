@@ -1,29 +1,24 @@
 <script lang="ts">
   import { ZNT_LEGEND_ITEMS, POI_CATEGORY_LEGEND, ROAD_LEGEND_ITEMS, POI_COLOR_MAP, POI_ICON_PATHS } from '$lib/map/symbology';
 
-  let isCollapsed = $state(false);
+  let { isCollapsed = $bindable(false), onExpand }: { isCollapsed?: boolean; onExpand?: () => void } = $props();
   let activeTab = $state<'znt' | 'infrastruktur' | 'poi'>('znt');
 
   function toggleCollapse() {
+    if (isCollapsed) onExpand?.();
     isCollapsed = !isCollapsed;
   }
 </script>
 
 <div class="sp-legend-widget" class:collapsed={isCollapsed}>
   <!-- Widget Header -->
-  <div class="sp-legend-header">
+  <button type="button" class="sp-legend-header" onclick={toggleCollapse} aria-expanded={!isCollapsed} aria-controls="legend-content">
     <div class="sp-header-title-wrap">
       <span class="sp-header-dot"></span>
       <span class="sp-header-title">Legenda Peta Tematik</span>
     </div>
 
-    <button
-      type="button"
-      class="sp-collapse-btn"
-      onclick={toggleCollapse}
-      title={isCollapsed ? 'Buka Legenda' : 'Ciutkan Legenda'}
-      aria-label="Toggle Legenda"
-    >
+    <span class="sp-collapse-btn" aria-hidden="true">
       <svg
         width="14"
         height="14"
@@ -35,10 +30,11 @@
       >
         <polyline points="6 9 12 15 18 9" />
       </svg>
-    </button>
-  </div>
+    </span>
+  </button>
 
   {#if !isCollapsed}
+    <div class="sp-legend-content" id="legend-content">
     <!-- Tab Navigation -->
     <div class="sp-legend-tabs">
       <button
@@ -151,6 +147,7 @@
         </div>
       {/if}
     </div>
+    </div>
   {/if}
 </div>
 
@@ -175,6 +172,10 @@
   }
 
   .sp-legend-header {
+    width: 100%;
+    border: 0;
+    text-align: left;
+    font: inherit;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -468,5 +469,18 @@
     .sp-legend-body {
       max-height: 220px;
     }
+  }
+
+  @media (max-width: 1024px) {
+    .sp-legend-widget, .sp-legend-widget.collapsed { left: auto; right: var(--sp-mobile-right); bottom: calc(var(--sp-footer-h) + 8px); width: calc((100% - var(--sp-mobile-left) - var(--sp-mobile-right) - 8px) / 2); overflow: visible; backdrop-filter: none; transition: none; }
+    .sp-legend-header { height: 48px; padding: 8px 10px; border-radius: 12px; border-bottom: 0; }
+    .sp-header-title-wrap { min-width: 0; gap: 6px; }
+    .sp-header-title { font-size: 11px; }
+    .sp-header-dot { flex-shrink: 0; }
+    .sp-legend-content { position: fixed; bottom: calc(var(--sp-footer-h) + 64px); left: var(--sp-mobile-left); right: var(--sp-mobile-right); max-height: min(50dvh, calc(100dvh - 230px)); display: flex; flex-direction: column; background: #fff; border: 1px solid var(--sp-border); border-radius: 14px; box-shadow: var(--sp-shadow-lg); overflow: hidden; }
+    .sp-legend-tabs { flex-shrink: 0; }
+    .sp-tab-btn { min-height: 40px; }
+    .sp-legend-body { min-height: 0; max-height: none; overscroll-behavior: contain; }
+    .sp-znt-desc, .sp-poi-desc { white-space: normal; }
   }
 </style>

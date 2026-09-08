@@ -5,3 +5,20 @@ dist
 .env
 .env.*
 !.env.example
+
+# Local development files
+/scripts/
+.local/
+.codex/
+.agents/
+.claude/
+.wrangler/
+[Aa][Gg][Ee][Nn][Tt][Ss].[Mm][Dd]
+[Cc][Ll][Aa][Uu][Dd][Ee].[Mm][Dd]
+[Gg][Ee][Mm][Ii][Nn][Ii].[Mm][Dd]
+[Cc][Oo][Dd][Ee][Xx].[Mm][Dd]
+docs/superpowers/
+.dev.vars
+.dev.vars.*
+*.pem
+*.key

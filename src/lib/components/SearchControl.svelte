@@ -5,9 +5,11 @@
   import jalanData from '$data/jaringan-jalan.geojson';
 
   let {
-    onSelectResult
+    onSelectResult,
+    onActivate
   }: {
     onSelectResult: (result: SearchResultItem) => void;
+    onActivate?: () => void;
   } = $props();
 
   let query = $state('');
@@ -98,6 +100,7 @@
       type="text"
       bind:value={query}
       onfocus={() => {
+        onActivate?.();
         isFocused = true;
         isOpen = true;
       }}
@@ -266,5 +269,14 @@
       right: 50px;
       width: 160px;
     }
+  }
+
+  @media (max-width: 1024px) {
+    .sp-search-container { width: auto; min-width: 0; right: auto; }
+    .sp-search-input-wrap { height: 44px; padding: 0 10px; gap: 6px; }
+    .sp-search-input { min-width: 0; font-size: 16px; }
+    .sp-search-dropdown { position: fixed; top: calc(var(--sp-mobile-top) + 102px); left: var(--sp-mobile-left); right: var(--sp-mobile-right); width: auto; max-height: min(280px, calc(100dvh - 210px)); }
+    .sp-result-main { align-items: flex-start; flex-direction: column; }
+    .sp-result-sub { white-space: normal; }
   }
 </style>
