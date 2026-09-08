@@ -23,6 +23,31 @@
   let cursorCoord = $state('-6.7589, 108.4842');
   let currentZoom = $state('14.5');
 
+  const initialMobile = window.matchMedia('(max-width: 1024px)').matches;
+  let isMobile = $state(initialMobile);
+  let layersCollapsed = $state(initialMobile);
+  let legendCollapsed = $state(initialMobile);
+  let basemapOpen = $state(false);
+
+  function openMobilePanel(panel: 'layers' | 'legend' | 'basemap' | 'tools') {
+    if (!isMobile) return;
+    if (panel !== 'layers') layersCollapsed = true;
+    if (panel !== 'legend') legendCollapsed = true;
+    if (panel !== 'basemap') basemapOpen = false;
+  }
+
+  onMount(() => {
+    const media = window.matchMedia('(max-width: 1024px)');
+    const syncLayout = () => {
+      isMobile = media.matches;
+      layersCollapsed = isMobile;
+      legendCollapsed = isMobile;
+      basemapOpen = false;
+    };
+    media.addEventListener('change', syncLayout);
+    return () => media.removeEventListener('change', syncLayout);
+  });
+
   let isHelpOpen = $state(false);
   let hideLegend = $state(false);
   let previewImage = $state<{ url: string; caption?: string; title?: string } | null>(null);
@@ -122,21 +147,26 @@
   <!-- Pemilih Peta Dasar di Sisi Kiri (Diletakkan di Atas Daftar Layer) -->
   <BasemapSelector
     {activeBasemap}
+    bind:isOpen={basemapOpen}
+    onExpand={() => openMobilePanel('basemap')}
     onSelectBasemap={handleSelectBasemap}
   />
 
   <!-- Panel Layer Spasial di Sisi Kiri (Tepat di Bawah Peta Dasar) -->
   <LayerPanel
     bind:layers
+    bind:isCollapsed={layersCollapsed}
+    onExpand={() => openMobilePanel('layers')}
     onToggleLayer={handleToggleLayer}
     onChangeOpacity={handleChangeOpacity}
   />
 
   <!-- Kelompok Alat Aksi Kanan Atas: Pencarian, Alat Ukur, dan Bantuan -->
   <div class="sp-top-right-group">
-    <SearchControl onSelectResult={handleSelectSearchResult} />
+    <SearchControl onSelectResult={handleSelectSearchResult} onActivate={() => openMobilePanel('tools')} />
 
     <MeasureControl
+      onActivate={() => openMobilePanel('tools')}
       activeMode={measureMode}
       resultText={measureResultText}
       onSetMode={handleSetMeasureMode}
@@ -157,7 +187,7 @@
 
   <!-- Widget Legenda Terapung Otomatis Terbuka di Sudut Kanan Bawah -->
   {#if !hideLegend}
-    <LegendWidget />
+    <LegendWidget bind:isCollapsed={legendCollapsed} onExpand={() => openMobilePanel('legend')} />
   {/if}
 
   <!-- Footer Minimalis Bar Bawah -->
@@ -191,6 +221,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
+    height: 100dvh;
     overflow: hidden;
   }
 </style>

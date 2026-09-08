@@ -77,4 +77,10 @@
       display: none;
     }
   }
+
+  @media (max-width: 1024px) {
+    .sp-brand-pill { top: var(--sp-mobile-top); left: var(--sp-mobile-left); right: calc(var(--sp-mobile-right) + 52px); max-width: none; height: 44px; padding: 5px 10px; gap: 8px; border: 1px solid var(--sp-border); border-radius: 14px; }
+    .sp-logo { width: 30px; height: 30px; }
+    .sp-title { font-size: 12px; overflow: hidden; text-overflow: ellipsis; }
+  }
 </style>

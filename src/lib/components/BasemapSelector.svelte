@@ -4,15 +4,19 @@
 
   let {
     activeBasemap = 'carto-positron',
-    onSelectBasemap
+    onSelectBasemap,
+    isOpen = $bindable(false),
+    onExpand
   }: {
+    isOpen?: boolean;
+    onExpand?: () => void;
     activeBasemap: BasemapId;
     onSelectBasemap: (id: BasemapId) => void;
   } = $props();
 
-  let isOpen = $state(false);
 
   function toggleOpen() {
+    if (!isOpen) onExpand?.();
     isOpen = !isOpen;
   }
 
@@ -30,6 +34,7 @@
     onclick={toggleOpen}
     title="Pilih Peta Dasar (Basemap)"
     aria-label="Pilih Peta Dasar"
+    aria-expanded={isOpen}
   >
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <rect width="18" height="18" x="3" y="3" rx="2" />
@@ -231,5 +236,12 @@
     font-size: 10px;
     color: #64748b;
     line-height: 1.25;
+  }
+
+  @media (max-width: 1024px) {
+    .sp-basemap-container { top: calc(var(--sp-mobile-top) + 104px); left: var(--sp-mobile-left); }
+    .sp-basemap-pill-btn { height: 44px; }
+    .sp-basemap-dropdown { position: fixed; top: calc(var(--sp-mobile-top) + 154px); left: var(--sp-mobile-left); right: var(--sp-mobile-right); width: auto; max-height: calc(100dvh - 260px); overflow-y: auto; overscroll-behavior: contain; }
+    .sp-close-icon { min-width: 36px; min-height: 36px; }
   }
 </style>

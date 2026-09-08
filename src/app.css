@@ -679,3 +679,25 @@ html, body {
     display: none;
   }
 }
+
+/* Mobile controls share fixed rows and respect Safari's dynamic viewport. */
+@media (max-width: 1024px) {
+  :root {
+    --sp-mobile-top: max(10px, env(safe-area-inset-top));
+    --sp-mobile-left: max(10px, env(safe-area-inset-left));
+    --sp-mobile-right: max(10px, env(safe-area-inset-right));
+    --sp-footer-h: calc(28px + env(safe-area-inset-bottom));
+  }
+  .sp-top-right-group { top: calc(var(--sp-mobile-top) + 52px); left: var(--sp-mobile-left); right: var(--sp-mobile-right); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+  .sp-top-right-group > .sp-pill-action { position: fixed; top: var(--sp-mobile-top); right: var(--sp-mobile-right); width: 44px; height: 44px; padding: 0; justify-content: center; }
+  .sp-btn-label { display: none; }
+  .maplibregl-ctrl-top-right { top: calc(var(--sp-mobile-top) + 104px) !important; right: var(--sp-mobile-right) !important; }
+  .maplibregl-ctrl-top-right .maplibregl-ctrl { margin: 0 0 8px !important; }
+  .maplibregl-ctrl-group button { width: 36px !important; height: 36px !important; }
+  .maplibregl-ctrl-scale { margin-left: var(--sp-mobile-left) !important; margin-bottom: 66px !important; }
+  .maplibregl-ctrl-bottom-right .maplibregl-ctrl-attrib { margin-right: var(--sp-mobile-right) !important; margin-bottom: 66px !important; max-width: calc(100vw - 180px); }
+  .sp-footer { padding: 0 var(--sp-mobile-right) env(safe-area-inset-bottom) var(--sp-mobile-left); gap: 6px; font-size: 9px; }
+  .sp-footer .sp-hide-mobile { display: none; }
+  .sp-footer > span:first-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sp-footer .mono { flex-shrink: 0; font-size: 9px; }
+}

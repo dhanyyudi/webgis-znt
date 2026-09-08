@@ -6,12 +6,14 @@
     activeMode = 'none',
     resultText = '',
     onSetMode,
-    onClear
+    onClear,
+    onActivate
   }: {
     activeMode: MeasureMode;
     resultText: string;
     onSetMode: (mode: MeasureMode) => void;
     onClear: () => void;
+    onActivate?: () => void;
   } = $props();
 
   let isPanelOpen = $state(false);
@@ -27,6 +29,7 @@
   });
 
   function selectMode(mode: MeasureMode) {
+    onActivate?.();
     isStatsOpen = false;
     if (activeMode === mode) {
       onSetMode('none');
@@ -38,6 +41,7 @@
   }
 
   function toggleStats() {
+    onActivate?.();
     onSetMode('none');
     isPanelOpen = false;
     isStatsOpen = !isStatsOpen;
@@ -405,5 +409,15 @@
       width: calc(100vw - 32px);
       right: -80px;
     }
+  }
+
+  @media (max-width: 1024px) {
+    .sp-measure-wrapper { position: static; }
+    .sp-measure-trigger-bar { height: 44px; padding: 1px; gap: 0; }
+    .sp-measure-btn { width: 40px; height: 40px; justify-content: center; padding: 0; }
+    .sp-measure-btn svg { width: 18px; height: 18px; }
+    .btn-text { display: none; }
+    .sp-stats-card, .sp-measure-status-card { position: fixed; top: calc(var(--sp-mobile-top) + 102px); left: var(--sp-mobile-left); right: var(--sp-mobile-right); width: auto; max-width: none; max-height: calc(100dvh - 230px); overflow-y: auto; overscroll-behavior: contain; }
+    .sp-close-small { min-width: 36px; min-height: 36px; }
   }
 </style>

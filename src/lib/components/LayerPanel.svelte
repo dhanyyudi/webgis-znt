@@ -4,17 +4,21 @@
   let {
     layers = $bindable<LayerConfig[]>(),
     onToggleLayer,
-    onChangeOpacity
+    onChangeOpacity,
+    isCollapsed = $bindable(false),
+    onExpand
   }: {
+    isCollapsed?: boolean;
+    onExpand?: () => void;
     layers: LayerConfig[];
     onToggleLayer: (id: LayerId, visible: boolean) => void;
     onChangeOpacity: (id: LayerId, opacity: number) => void;
   } = $props();
 
-  let isCollapsed = $state(false);
   let activeOpacityId = $state<LayerId | null>(null);
 
   function toggleCollapse() {
+    if (isCollapsed) onExpand?.();
     isCollapsed = !isCollapsed;
   }
 
@@ -36,24 +40,18 @@
 </script>
 
 <div class="sp-layer-panel" class:collapsed={isCollapsed}>
-  <div class="sp-panel-header">
+  <button type="button" class="sp-panel-header" onclick={toggleCollapse} aria-expanded={!isCollapsed} aria-controls="layer-panel-body">
     <div class="sp-header-left">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <polygon points="12 2 2 7 12 12 22 7 12 2" />
         <polyline points="2 17 12 22 22 17" />
         <polyline points="2 12 12 17 22 12" />
       </svg>
-      <span class="sp-panel-title">Daftar Layer Spasial</span>
+      <span class="sp-panel-title"><span class="sp-layer-title-desktop">Daftar Layer Spasial</span><span class="sp-layer-title-mobile">Layer</span></span>
       <span class="sp-layer-count">{layers.filter(l => l.visible).length}/{layers.length}</span>
     </div>
 
-    <button
-      type="button"
-      class="sp-icon-btn"
-      onclick={toggleCollapse}
-      title={isCollapsed ? 'Perluas Panel Layer' : 'Ciutkan Panel Layer'}
-      aria-label="Toggle Panel"
-    >
+    <span class="sp-icon-btn" aria-hidden="true">
       <svg
         width="14"
         height="14"
@@ -65,11 +63,11 @@
       >
         <polyline points="18 15 12 9 6 15" />
       </svg>
-    </button>
-  </div>
+    </span>
+  </button>
 
   {#if !isCollapsed}
-    <div class="sp-panel-body">
+    <div class="sp-panel-body" id="layer-panel-body">
       <ul class="sp-layer-list">
         {#each layers as layer (layer.id)}
           <li class="sp-layer-item" class:layer-disabled={!layer.visible}>
@@ -140,7 +138,14 @@
     transition: width 0.2s ease, box-shadow 0.2s ease;
   }
 
+  .sp-layer-title-mobile { display: none; }
+
   .sp-panel-header {
+    width: 100%;
+    border: 0;
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -311,5 +316,18 @@
       width: calc(100vw - 20px);
       max-width: 290px;
     }
+  }
+
+  @media (max-width: 1024px) {
+    .sp-layer-panel { top: auto; bottom: calc(var(--sp-footer-h) + 8px); left: var(--sp-mobile-left); width: calc((100% - var(--sp-mobile-left) - var(--sp-mobile-right) - 8px) / 2); max-width: none; overflow: visible; backdrop-filter: none; transition: none; }
+    .sp-panel-header { height: 48px; padding: 8px 10px; border-radius: 12px; border-bottom: 0; }
+    .sp-header-left { gap: 6px; }
+    .sp-layer-title-desktop { display: none; }
+    .sp-layer-title-mobile { display: inline; }
+    .sp-panel-body { position: fixed; bottom: calc(var(--sp-footer-h) + 64px); left: var(--sp-mobile-left); right: var(--sp-mobile-right); max-height: min(50dvh, calc(100dvh - 230px)); background: #fff; border: 1px solid var(--sp-border); border-radius: 14px; box-shadow: var(--sp-shadow-lg); overscroll-behavior: contain; }
+    .sp-layer-row { min-height: 44px; }
+    .sp-layer-name { font-size: 12px; }
+    .sp-opacity-toggle { min-width: 36px; min-height: 36px; }
+    .sp-checkbox { width: 18px; height: 18px; flex-shrink: 0; }
   }
 </style>

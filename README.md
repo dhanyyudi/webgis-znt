@@ -103,8 +103,6 @@ webgis-atr-bpn/
 │   ├── favicon.svg            # Monogram logo kartografis
 │   ├── images/                # Koleksi foto survei lapangan
 │   └── screenshots/           # Cadangan aset tangkapan layar
-├── scripts/
-│   └── generate_clean_pois.cjs # Skrip kurasi data POI spasial
 ├── src/
 │   ├── app.css                # Desain antarmuka dan variabel warna tema
 │   ├── App.svelte             # Komponen utama perakit WebGIS
